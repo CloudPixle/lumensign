@@ -5,7 +5,7 @@ Future initFirebase() async {
   if (kIsWeb) {
     await Firebase.initializeApp(
         options: FirebaseOptions(
-            apiKey: "AIzaSyCHqPpZAaQ9enFTvqEJwm8MvS0pAyECJ9s",
+            apiKey: "xxxxxx",
             authDomain: "lumen-bvv207.firebaseapp.com",
             projectId: "lumen-bvv207",
             storageBucket: "lumen-bvv207.firebasestorage.app",

@@ -1,0 +1,18 @@
+{
+  "indexes": [
+    {
+      "collectionGroup": "sign_logs",
+      "queryScope": "COLLECTION",
+      "fields": [
+        {
+          "fieldPath": "sign_id",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "timestamp",
+          "order": "DESCENDING"
+        }
+      ]
+    }
+  ]
+}

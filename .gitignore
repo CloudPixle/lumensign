@@ -1,0 +1,24 @@
+# --- PROJECT LUMEN PRIVACY SHIELD ---
+
+# 1. API Keys & Secrets (The most important part)
+.env
+.env.*
+secrets.json
+lib/secrets.dart
+ios/Runner/GoogleService-Info.plist
+android/app/google-services.json
+
+# 2. Flutter/Dart build files (Prevents repo bloat)
+build/
+.dart_tool/
+.flutter-plugins
+.flutter-plugins-dependencies
+.packages
+.pub/
+.pub-cache/
+
+# 3. OS & IDE specific
+.DS_Store
+.idea/
+.vscode/
+*.iml
